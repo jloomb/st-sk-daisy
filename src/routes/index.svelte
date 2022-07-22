@@ -16,7 +16,7 @@
         <div class="welcome-bottom h-full pt-10 mx-3 flex flex-col flex-1 justify-between bg-accent text-accent-content content-end">
           <div>
             <h1>COMING SOON</h1>
-            <p></p>
+            <p>google fonts: Jost (sans serif) Merllweather (serif)/p>
           </div>
           <div>
             <span class="tag-wrap m-6">
