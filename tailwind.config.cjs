@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
@@ -19,6 +22,11 @@ module.exports = {
 	},
 
 	theme: {
+		fontFamily: {
+      'sans': ['Jost', ...defaultTheme.fontFamily.sans],
+      'serif': ['Merriweather', ...defaultTheme.fontFamily.serif],
+      'mono': [...defaultTheme.fontFamily.mono]
+    },
 		extend: {}
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')]
