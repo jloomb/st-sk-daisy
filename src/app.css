@@ -1,12 +1,24 @@
+/* load fonts with link to allow preload
+
+/* Merriweather: light, regular, bold
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+/* Jost: thin, regular, bold
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+
+/* full styles
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*/
+
+
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
+bodyOFF {
 	height: 100vh;
 	background: repeating-linear-gradient(
 			hsl(87, 54%, 51%) 0,
@@ -22,4 +34,19 @@ body {
 				transparent 1px,
 				transparent 2px
 			);
+}
+
+bodyOFF {
+	background-color: #eee;
+	background-image:
+		linear-gradient(45deg, black 25%, transparent 25%, 
+			transparent 75%, black 75%, black),
+		linear-gradient(45deg, black 25%, transparent 25%, 
+			transparent 75%, black 75%, black);
+	background-size: 60px 60px;
+	background-position: 0 0, 30px 30px;
+}
+
+body, .DrawerBG {
+	background: repeating-conic-gradient(hsl(87, 54%, 51%) 0% 25%, hsl(60, 100%, 80%) 0% 50%) 50%/ 2px 2px;
 }

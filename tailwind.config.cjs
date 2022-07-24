@@ -14,7 +14,7 @@ module.exports = {
 					secondary: '#9966FF',
 					accent: '#FFCB00',
 					neutral: '#FFFF99',
-					'base-100': '#8AC63F'
+					'base-100': '#252525'
 				}
 			},
 			'light'
@@ -22,12 +22,20 @@ module.exports = {
 	},
 
 	theme: {
-		fontFamily: {
+		REPLACEmaxWidth: {
+      '1/2': '50%',
+    },
+		OFF_fontFamily: {
       'sans': ['Jost', ...defaultTheme.fontFamily.sans],
       'serif': ['Merriweather', ...defaultTheme.fontFamily.serif],
       'mono': [...defaultTheme.fontFamily.mono]
     },
-		extend: {}
+		extend: {
+			maxWidth: {
+				'1/2': '50%',
+				'3/4': '75%',
+			}
+		}
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')]
 };
