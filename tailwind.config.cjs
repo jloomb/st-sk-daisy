@@ -11,7 +11,8 @@ module.exports = {
 				dark: {
 					...require('daisyui/src/colors/themes')['[data-theme=dark]'],
 					primary: '#8AC63F',
-					secondary: '#9966FF',
+					secondaryOLD: '#9966FF',
+					secondary: '#8357DB',
 					accent: '#FFCB00',
 					neutral: '#FFFF99',
 					'base-100': '#252525'
@@ -22,7 +23,7 @@ module.exports = {
 	},
 
 	theme: {
-		REPLACEmaxWidth: {
+		REPLACESmaxWidth: {
       '1/2': '50%',
     },
 		OFF_fontFamily: {
@@ -34,7 +35,10 @@ module.exports = {
 			maxWidth: {
 				'1/2': '50%',
 				'3/4': '75%',
-			}
+			},
+			maxHeight: {
+				'1/2': '50%'
+			},
 		}
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')]
