@@ -29,7 +29,8 @@
 {/if}
 
 <style lang="scss">
-  h1, pre {
-    color: red;
-  }
+	h1,
+	pre {
+		color: red;
+	}
 </style>
