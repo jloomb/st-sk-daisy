@@ -6,9 +6,9 @@
 <div class="drawer drawer-end">
 	<input id="drawer" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content">
-
-		<div class="welcome h-screen grid grid-rows-3 sm-landscape:grid-rows-2 sm-landscape:grid-cols-2">
-
+		<div
+			class="welcome h-screen grid grid-rows-3 sm-landscape:grid-rows-2 sm-landscape:grid-cols-2"
+		>
 			<div class="welcome-1 drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] w-1/2 mx-auto -mb-16">
 				<div class="welcome-top grid place-items-center h-full max-w-md mx-auto pb-6 bg-primary">
 					<a href="/">
@@ -23,7 +23,9 @@
 				</div>
 			</div>
 
-			<div class="welcome-2 row-span-2 drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] max-w-screen-xl px-6 w-11/12 mx-auto">
+			<div
+				class="welcome-2 row-span-2 drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] max-w-screen-xl px-6 w-11/12 mx-auto"
+			>
 				<div
 					class="welcome-bottom grid items-end h-full bg-primary text-accent-content justify-items-center"
 				>
@@ -53,9 +55,7 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
-
 	</div>
 
 	<div class="drawer-side">
@@ -68,7 +68,8 @@
 				<label for="drawer" class="drawer-button btn btn-secondary text-white">Close drawer</label>
 			</li>
 			<li>
-				#9966FF purple #8AC63F green #FFCB00 yellow #EC008B magenta #FF9 light yellow neutral #252525 dark grey text and lines
+				#9966FF purple #8AC63F green #FFCB00 yellow #EC008B magenta #FF9 light yellow neutral
+				#252525 dark grey text and lines
 			</li>
 		</ul>
 	</div>

@@ -49,9 +49,9 @@ module.exports = {
 				'1/2': '50%'
 			},
 			screens: {
-        'sm-landscape': { 'raw': '(max-height: 500px)' }
-        // => @media (max-height: 500px) { ... }
-      }
+				'sm-landscape': { raw: '(max-height: 500px)' }
+				// => @media (max-height: 500px) { ... }
+			}
 		}
 	},
 	plugins: [require('@tailwindcss/typography'), require('daisyui')]
