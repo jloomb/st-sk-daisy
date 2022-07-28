@@ -1,4 +1,4 @@
-<div class="">
+<div class="bg-slate-200 p-10">
 	<div class="overflow-x-auto">
 		<div class="whitespace-nowrap">
 			<table>

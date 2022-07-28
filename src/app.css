@@ -54,12 +54,8 @@ OFFbody,
 		2px;
 }
 
-OFFbody,
+body,
 .DrawerBG {
 	background: repeating-conic-gradient(hsl(60, 100%, 80%) 0% 25%, hsl(87, 54%, 51%) 0% 50%) 50%/ 2px
 		2px;
-}
-
-.adjusted-h-2\/3 {
-	height: calc(66.666667vh + 4rem) !important;
 }
