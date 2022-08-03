@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Home</title>
+	<title>souptrippers</title>
 	<meta name="description" content="souptrippers | welcome" />
 </svelte:head>
 
@@ -7,7 +7,7 @@
 	<input id="drawer" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content">
 		<div
-			class="welcome h-screen grid grid-rows-3 sm-landscape:grid-rows-2 sm-landscape:grid-cols-2"
+			class="welcome h-full grid grid-rows-3 sm-landscape:grid-rows-2 sm-landscape:grid-cols-2"
 		>
 			<div class="welcome-1 drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] w-1/2 mx-auto -mb-16">
 				<div class="welcome-top grid place-items-center h-full max-w-md mx-auto pb-6 bg-primary">
@@ -24,20 +24,20 @@
 			</div>
 
 			<div
-				class="welcome-2 row-span-2 drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] max-w-screen-xl px-6 w-11/12 mx-auto"
+				class="welcome-2 row-span-2 drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] max-w-6xl sm-landscape:pt-6 px-6 w-11/12 mx-auto"
 			>
 				<div
-					class="welcome-bottom grid items-end h-full bg-primary text-accent-content justify-items-center"
+					class="welcome-bottom grid items-end h-full box-border bg-primary text-accent-content justify-items-center"
 				>
 					<div class="prose px-16 sm:px-20">
 						<h1 class="text-4xl italic text-secondary">COMING SOON</h1>
 						<p class="font-serif text-neutral">
-							Join us as we hurtle through space on a giant rock
+							Join the souptrippers as we hurtle through the expanse of space on a giant rock
 						</p>
 					</div>
 
 					<div class="drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] w-2/3">
-						<label for="drawer" class="MenuButton btn btn-secondary w-full">
+						<label for="drawer" class="MenuButton btn btn-secondary w-full max-w-1/2">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"

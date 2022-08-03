@@ -15,6 +15,15 @@
 @tailwind components;
 @tailwind utilities;
 
+/* viewport on mobile browsers is whack */
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}
+html {
+  height: -webkit-fill-available;
+}
+
 bodyOFF {
 	height: 100vh;
 	background: repeating-linear-gradient(
