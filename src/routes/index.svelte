@@ -3,6 +3,11 @@
 	<meta name="description" content="souptrippers | welcome" />
 </svelte:head>
 
+<script context="module">
+  export const router = false;
+  export const hydrate = false;
+</script>
+
 <div class="drawer drawer-end">
 	<input id="drawer" type="checkbox" class="drawer-toggle" />
 	<div class="drawer-content">

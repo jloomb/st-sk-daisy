@@ -23,8 +23,8 @@ module.exports = {
 					primary: '#FFCB00',
 					secondary: '#9966FF',
 					accent: '#8AC63F',
-					neutral: '#252525',
-					'OFFbase-100': '#252525'
+					neutral: '#FFF4C8',
+					'base-100': '#252525'
 				}
 			},
 			'light'
