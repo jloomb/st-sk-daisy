@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>souptrippers</title>
+	<title>souptrippers | welcome</title>
 	<meta name="description" content="souptrippers | welcome" />
 </svelte:head>
 
@@ -35,14 +35,19 @@
 					class="welcome-bottom grid items-end h-full box-border bg-primary text-accent-content justify-items-center"
 				>
 					<div class="prose px-16 sm:px-20">
-						<h1 class="text-4xl italic text-secondary">COMING SOON</h1>
+						<h1 class="mx-10 mt-5 py-2 text-4xl OFF-skew-y-6 italic text-accent bg-neutral">
+							COMING SOON
+						</h1>
 						<p class="font-serif text-neutral">
-							Join the souptrippers as we hurtle through the expanse of space on a giant rock
+							As we hurtle through the expanse of space on a giant rock.... Join souptrippers on 
+							their mission to find better questions, explore the depths of dimensions, adventure 
+							more, sail the high seas, navigate the lows, drink enough water, dance.... Oh and
+							make some cool interweb things :)
 						</p>
 					</div>
 
 					<div class="drop-shadow-[0_0_10px_rgba(50,50,0,0.5)] w-2/3">
-						<label for="drawer" class="MenuButton btn btn-secondary w-full max-w-1/2">
+						<label for="drawer" class="MenuButton btn btn-accent w-full max-w-1/2">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								fill="none"
@@ -64,13 +69,13 @@
 	</div>
 
 	<div class="drawer-side">
-		<label for="my-drawer-4" class="drawer-overlay" />
+		<label for="drawer" class="drawer-overlay" />
 		<ul class="menu p-4 overflow-y-auto w-full DrawerBG text-base-100">
 			<!-- Sidebar content here -->
 			<li><a href="/example">Examples</a></li>
 			<li><a href="/">Home</a></li>
 			<li>
-				<label for="drawer" class="drawer-button btn btn-secondary text-white">Close drawer</label>
+				<label for="drawer" class="drawer-button btn btn-accent text-white">Close drawer</label>
 			</li>
 			<li>
 				#9966FF purple #8AC63F green #FFCB00 yellow #EC008B magenta #FF9 light yellow neutral
@@ -92,6 +97,13 @@
 		clip-path: polygon(18% 5%, 80% 0%, 100% 100%, 0% 100%);
 		overflow: hidden;
 		text-align: center;
+		OFFh1 {
+			-webkit-text-stroke-color: #252525;
+			-webkit-text-stroke-width: 0.04em
+		}
+		OFFh1 {
+			text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+		}
 	}
 	.MenuButton {
 		clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 100%, 0 100%, 0% 20%);

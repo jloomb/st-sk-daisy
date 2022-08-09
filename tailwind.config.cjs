@@ -13,7 +13,7 @@ module.exports = {
 					primary: '#FFCB00',
 					secondary: '#9966FF',
 					accent: '#8AC63F',
-					neutral: '#FFFF99',
+					neutral: '#FFF4C8',
 					'base-100': '#252525'
 				}
 			},
@@ -21,10 +21,10 @@ module.exports = {
 				'custom-light': {
 					...require('daisyui/src/colors/themes')['[data-theme=light]'],
 					primary: '#FFCB00',
-					secondary: '#9966FF',
-					accent: '#8AC63F',
-					neutral: '#FFF4C8',
-					'base-100': '#252525'
+					secondary: '#8357DB',
+					accent: '#D8005E',
+					neutral: '#252525',
+					'base-100': '#FFF4C8'
 				}
 			},
 			'light'

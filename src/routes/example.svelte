@@ -69,12 +69,10 @@
 	</div>
 </div>
 
-<div class="my-8" />
-
-<div data-theme="light">
+<div data-theme="dark" class="pt-10">
 	<!-- example -->
 	<div class="container mx-auto bg-base-100">
-		<!-- buttons -->
+		<!-- buttons --><div class="my-8" />
 		<div class="p-4 flex justify-center">
 			<button class="btn btn-primary">primary</button>
 			<button class="btn btn-secondary">secondary</button>
@@ -172,12 +170,10 @@
 	</div>
 </div>
 
-<div data-theme="light">
+<div data-theme="custom-light">
 	<h2 class="px-2 pb-4 text-xl font-bold">Preview</h2>
 	<div
 		class="rounded-box bg-base-100 border-base-content/5 text-base-content not-prose grid gap-3 border p-6"
-		data-theme="mytheme"
-		style="--p:87 54% 51%; --s:260 100% 70%; --a:48 100% 50%; --n:60 100% 80%; --b1:0 0% 100%; --in:212 100% 48%; --su:137 72% 46%; --wa:5 100% 66%; --er:325 78% 49%; --pf:87 54% 41%; --sf:260 100% 56%; --af:48 100% 40%; --nf:60 100% 64%; --b2:0 0% 90%; --b3:0 0% 80%; --bc:0 0% 20%; --pc:87 100% 10%; --sc:260 100% 14%; --ac:48 100% 10%; --nc:60 100% 16%; --inc:212 100% 90%; --suc:137 100% 9%; --wac:5 100% 13%; --erc:325 100% 90%;"
 	>
 		<div class="grid grid-cols-2 gap-2 md:grid-cols-4">
 			<button class="btn">Default</button> <button class="btn btn-primary">Primary</button>
